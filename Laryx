@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<title>LARYX</title>
+    <head></head>
+    <body>
+       	   <script type="text/javascript" src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <center>  <em> <h1>LARYX : ARTIFICAL VOICE BOX</h1></em></center>
+	<center>  <em> <h2>Text to Speech Converter</h2></em></center>
+
+     <center>   <textarea id="txt" cols="100" rows="25"></textarea></center>
+       <center> <input onclick="speakText()" type="button" value="submit"></center>
+
+        <script>
+            function speakText(){
+                var text = document.getElementById('txt').value;
+                responsiveVoice.speak(text);
+
+            }
+        </script>
+    </body>
+</html> 
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+body {
+  background-image: url("https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  background-color: #cccccd;
+}
+</style>
+</head>
+<body>
+ <center><em>   <h2>this is a free website for text to speech for helping people</h2></em></center>
+<center><a href="https://docs.google.com/forms/d/e/1FAIpQLSddJsiTU99LXqSV0rITzISTWsvmYhuJpdwLSvpxFJZU-bO5dg/viewform?usp=sf_link" target="_blank">HELP US TO IMPROVE OUR PAGE BY SUBMITING THIS FORM :) </a> </center>
+</body>
+</html>
